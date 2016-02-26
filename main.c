@@ -1,10 +1,11 @@
 #define NOTHING_MORE_NOTHING_LESS 1
-#define SOMETHING !NOTHING_MORE_NOTHING_LESS
+#define SOMETHING 1
+
 int main()
 {
-  if (NOTHING_MORE_NOTHING_LESS)
-    printf ("Nothing is here\n");
-  else if (SOMETHING)
+  if (SOMETHING)
     printf ("You are something else\n")
+  else if (NOTHING_MORE_NOTHING_LESS)
+    printf ("Nothing is here\n");
   return 0
 }
