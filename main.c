@@ -1,6 +1,7 @@
 #define NOTHING_MORE_NOTHING_LESS 1
 #define SOMETHING 1
 
+//Should put a comment in here
 int main()
 {
   if (SOMETHING)
